@@ -13,7 +13,7 @@ secilen_kelime = random.choice(kelimeler)
 
 if harf in secilen_kelime:
     # Harf kelimenin içinde ise
-    sifrelenmis_kelime = ''.join([c if c == harf else '!' for c in secilen_kelime])
+    sifrelenmis_kelime = ''.join([c if c == harf else '!' for c in secilen_kelime])#W3 School sağ olsun.
     print(f"Seçilen kelime: {sifrelenmis_kelime}")
 else:
     # Harf kelimenin içinde değilse
